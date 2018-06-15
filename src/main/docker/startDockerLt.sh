@@ -1,0 +1,2 @@
+##安徽联通
+docker run -p 8090:8089 -d -v /home/docker/imagetar/audioAnalysis/files:/home/idcmon/audiofiles -v  /home/docker/imagetar/audioAnalysis/conf:/home/idcmon/audioAnalysis/conf -v /home/docker/imagetar/audioAnalysis/logs:/home/idcmon/audioAnalysis/logs --name audio-analysis-ustc -ti 192.168.80.41:5001/audio-analysis-ustc:v1.0 /bin/bash

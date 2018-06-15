@@ -1,0 +1,1 @@
+java  -Dloader.path=.,/home/idcmon/audioAnalysis/conf,../lib -jar ../audioAnalysis-0.0.1-SNAPSHOT.jar &
